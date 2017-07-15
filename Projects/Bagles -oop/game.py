@@ -47,7 +47,7 @@ while not gameExit:
             elif int(guess_list[i]) in secret_number_list:
                 clues.append("Pico")
             else:
-                clues.append("Bagles")
+                clues.append("Bagels")
         mistakes += 1
         print("Mistakes : {}".format(str(mistakes)))
         print(clues)
